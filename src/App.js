@@ -28,6 +28,19 @@ const App = () => {
                     <div className='col-sm'>
                         <ExpenseTotal />
                     </div>
+                    <div className='col-sm'>
+                        <select 
+                        class="form-select btn btn-success" 
+                        id="currency" 
+                        name="currency"
+                        style={{ width: 180 }}>
+                            <option>Currency (£ Pound)</option>
+                            <option value="$">$ Dolar</option>
+                            <option value="£">£ Pound</option>
+                            <option value="€">€ Euro</option>
+                            <option value="₹">₹ Ruppee</option>
+                        </select>
+                    </div>
                 </div>
                 <h3 className='mt-3'>Allocation</h3>
                 <div className='row '>
